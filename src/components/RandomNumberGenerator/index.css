@@ -1,0 +1,37 @@
+* {
+  font-family: 'Roboto';
+}
+body {
+  margin: 0px;
+}
+.RandomNumberContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.RandomContainer {
+  height: 40vh;
+  width: 50vh;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 0px;
+  text-align: center;
+}
+.randomNumberHead {
+  color: #0b69ff;
+}
+.generateButton {
+  background-color: #0b69ff;
+  border-radius: 6px;
+  border-width: 0px;
+  color: white;
+  height: 5vh;
+  width: 100px;
+}
+.Number {
+  font-size: 30px;
+  color: #0b69ff;
+}
